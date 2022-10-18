@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PANTONE</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="js/pantone.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="top-wrap">
+        <div class="center">
+          <ul class="top-left">
+            <li><a href="#">고객지원센터</a></li>
+            <li><a href="#">최신소식&뉴스</a></li>
+            <li>
+              <select title="국가 입력">
+                <option value="">Korea</option>
+                <option value="">United States</option>
+              </select>
+            </li>
+          </ul>
+          <ul class="top-right">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">마이페이지</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="logo-wrap center">
+        <h1>
+          <a href="index.html"><img src="img/logo.jpg" alt="PANTONE" /></a>
+        </h1>
+        <div class="search" aria-label="검색">
+          <input type="text" title="검색어 입력" required /><i
+            class="fas fa-search"
+          ></i>
+        </div>
+      </div>
+    </header>
+    <!-- 메인메뉴 -->
+    <nav>
+      <ul class="gnb center clearfix">
+        <li class="cate-btn">
+          <a href="#" class="cate-text">카테고리</a>
+          <a href="#">
+            <div class="cate-bar">
+              <span></span>
+              <span></span>
+              <span></span></div
+          ></a>
+        </li>
+        <li>
+          <a href="#">팬톤 제품 소개</a>
+          <div>
+            <ul>
+              <li class="bold">나의 분야는..</li>
+              <li><a href="#">패키징</a></li>
+              <li><a href="#">인쇄</a></li>
+              <li><a href="#">디지털</a></li>
+              <li><a href="#">섬유</a></li>
+              <li><a href="#">플라스틱</a></li>
+              <li><a href="#">코팅</a></li>
+              <li><a href="#">코스메틱</a></li>
+            </ul>
+            <ul>
+              <li class="bold">내가 원하는 도구는..</li>
+              <li><a href="#">컬러 심리학</a></li>
+              <li><a href="#">트렌드 예측</a></li>
+              <li><a href="#">팔레트 개발</a></li>
+              <li><a href="#">컬러 확인</a></li>
+              <li><a href="#">생산 & 연구</a></li>
+              <li><a href="#">스와치카드 낱장구매</a></li>
+            </ul>
+            <ul>
+              <li class="bold">나는..</li>
+              <li><a href="#">그래픽 디자이너</a></li>
+              <li><a href="#">패키징 디자이너</a></li>
+              <li><a href="#">패션 디자이너</a></li>
+              <li><a href="#">인테리어 디자이너</a></li>
+              <li><a href="#">제품 디자이너</a></li>
+              <li><a href="#">브랜드 디자이너</a></li>
+              <li><a href="#">인쇄업자</a></li>
+            </ul>
+            <ul>
+              <li class="bold">내가 원하는 분류는..</li>
+              <li><a href="#">그래픽</a></li>
+              <li><a href="#">패션/홈인테리어</a></li>
+              <li><a href="#">플라스틱</a></li>
+              <li><a href="#">팬톤 LIVE</a></li>
+              <li><a href="#">Munsell</a></li>
+              <li><a href="#">측색기&컬러장비</a></li>
+              <li><a href="#">디지털 앱</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#">컬러 시스템</a>
+          <ul>
+            <li><a href="#">팬톤 컬러 시스템</a></li>
+            <li><a href="#">그래픽 디자인</a></li>
+            <li><a href="#">패션 디자인</a></li>
+            <li><a href="#">제품 디자인</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">컬러 인텔리전스</a>
+          <ul>
+            <li><a href="#">팬톤 올해의 컬러</a></li>
+            <li><a href="#">패션 컬러 트랜드 리포트</a></li>
+            <li><a href="#">팬톤 보도자료</a></li>
+            <li><a href="#">가까운 컬러 찾기</a></li>
+            <li><a href="#">Dyestuff Formulations</a></li>
+            <li><a href="#">오늘의 컬러</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">컬러 컨설팅</a>
+          <ul>
+            <li><a href="#">팬톤 컬러 인스티튜트 (PCI)</a></li>
+            <li><a href="#">트렌드 매거진</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">고객지원</a>
+          <ul>
+            <li><a href="#">많이하는 질문</a></li>
+            <li><a href="#">디지털 월페이퍼</a></li>
+            <li><a href="#">팬톤 컬러 매니저 사용법</a></li>
+            <li><a href="#">캡슈어 사용법</a></li>
+            <li><a href="#">제품 등록</a></li>
+            <li><a href="#">소프트웨어 다운로드</a></li>
+            <li><a href="#">카탈로그 다운로드</a></li>
+            <li><a href="#" class="bold">개인 결제</a></li>
+          </ul>
+        </li>
+        <li><a href="#">팬톤 컬러 찾기</a></li>
+      </ul>
+      <!-- 카테고리 -->
+      <div class="cate-menu center">
+        <ul>
+          <li class="bold">제품소개</li>
+          <li><a href="#">그래픽</a></li>
+          <li><a href="#">패션/홈인테리어</a></li>
+          <li><a href="#">플라스틱</a></li>
+          <li><a href="#">Munsell</a></li>
+          <li><a href="#">측색기&컬러장비</a></li>
+          <li><a href="#">디지털 앱</a></li>
+        </ul>
+        <ul>
+          <li class="bold">컬러 시스템</li>
+          <li><a href="#">팬톤 컬러 시스템</a></li>
+          <li><a href="#">그래픽 디자인</a></li>
+          <li><a href="#">패션 디자인</a></li>
+          <li><a href="#">제품 디자인</a></li>
+        </ul>
+        <ul>
+          <li class="bold">컬러 인텔리전스</li>
+          <li><a href="#">팬톤 올해의 컬러</a></li>
+          <li><a href="#">패션 컬러 트랜드 리포트</a></li>
+          <li><a href="#">팬톤 보도자료</a></li>
+          <li><a href="#">가까운 컬러 찾기</a></li>
+          <li><a href="#">Dyestuff Formulations</a></li>
+          <li><a href="#">오늘의 컬러</a></li>
+        </ul>
+        <ul>
+          <li class="bold">컬러 컨설팅</li>
+          <li><a href="#">팬톤 컬러 인스티튜트</a></li>
+          <li><a href="#">트렌드 매거진</a></li>
+        </ul>
+        <ul>
+          <li class="bold">회사소개</li>
+          <li><a href="#">팬톤에 대하여</a></li>
+          <li><a href="#">고객 지원 센터</a></li>
+          <li><a href="#">1:1 상담</a></li>
+          <li><a href="#">뉴스 & 보도자료</a></li>
+          <li><a href="#">전시회 & 세미나</a></li>
+          <li><a href="#">라이센스 사용자</a></li>
+          <li><a href="#">대리점 찾기</a></li>
+        </ul>
+        <ul>
+          <li class="bold">고객지원</li>
+          <li><a href="#">많이하는 질문</a></li>
+          <li><a href="#">디지털 월페이퍼</a></li>
+          <li><a href="#">팬톤 LIVE</a></li>
+          <li><a href="#">제품 영상 보기</a></li>
+          <li><a href="#">팬톤 스튜디오에 대하여</a></li>
+          <li><a href="#">팬톤 컬러 매니저 사용법</a></li>
+          <li><a href="#">캡슈어 사용법</a></li>
+          <li></li>
+          <li><a href="#">제품 등록</a></li>
+          <li><a href="#">Equipment Services</a></li>
+          <li><a href="#">Calibrated Printers</a></li>
+          <li><a href="#">소프트웨어 다운로드</a></li>
+          <li><a href="#">카탈로그 다운로드</a></li>
+          <li><a href="#">개인 결제</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section class="main">
+        <h2 class="blind">main banner</h2>
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="img/main1.jpg"
+                alt="패션 컬러 트렌드 리포트"
+                class="lg-only"
+              />
+              <img
+                src="img/m_main1.jpg"
+                alt="패션 컬러 트렌드 리포트"
+                class="sm-only"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="img/main2.jpg"
+                alt="팬톤뷰 홈 인테리어"
+                class="lg-only"
+              />
+              <img
+                src="img/m_main2.jpg"
+                alt="팬톤뷰 홈 인테리어"
+                class="sm-only"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="img/main3.jpg"
+                alt="팬톤뷰 컬러 플래너"
+                class="lg-only"
+              />
+              <img
+                src="img/m_main3.jpg"
+                alt="팬톤뷰 컬러 플래너"
+                class="sm-only"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="img/main4.jpg"
+                alt="팬톤 뷰포인트 컬러 이슈"
+                class="lg-only"
+              />
+              <img
+                src="img/m_main4.jpg"
+                alt="팬톤 뷰포인트 컬러 이슈"
+                class="sm-only"
+              />
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination swiper-pagination-white"></div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next swiper-button-white"></div>
+          <div class="swiper-button-prev swiper-button-white"></div>
+        </div>
+      </section>
+      <!-- products -->
+      <section class="products">
+        <h2>PRODUCTS</h2>
+        <div class="btn-wrap">
+          <button class="filter-btn" data-filter="*">ALL</button>
+          <button class="filter-btn" data-filter=".new">NEW</button>
+          <button class="filter-btn" data-filter=".best">BEST</button>
+          <button class="filter-btn" data-filter=".lim">LIMITED</button>
+        </div>
+        <div class="prod-wrap center">
+          <div class="prod-filter">
+            <div class="item lim">
+              <a href="#"
+                ><img
+                  src="img/limited1.jpg"
+                  alt="2022 한정판 팬톤 TPG 컬러 가이드"
+                />
+                <p>
+                  올해의 컬러 2022 한정판 팬톤 TPG 컬러 가이드 PANTONE FASHION,
+                  HOME + INTERIORS Color Guide
+                </p></a
+              >
+            </div>
+            <div class="item best">
+              <a href="#"
+                ><img src="img/best1.jpg" alt="TPM 메탈릭 쉬머스 컬러 가이드" />
+                <p>
+                  팬톤 TPM 메탈릭 쉬머스 컬러 가이드 / FHIP310N PANTONE Metallic
+                  Shimmers Color Guide
+                </p></a
+              >
+            </div>
+            <div class="item lim">
+              <a href="#"
+                ><img
+                  src="img/limited2.jpg"
+                  alt="2022 한정판 팬톤 포뮬러 가이드"
+                />
+                <p>
+                  올해의 컬러 2022 한정판 팬톤 포뮬러 가이드 l 코팅,비코팅
+                  PANTONE FORMULA GUIDE l Coated & Uncoated
+                </p></a
+              >
+            </div>
+            <div class="item new">
+              <a href="#"
+                ><img src="img/new1.jpg" alt="TPG 시트" />
+                <p>
+                  PANTONE 팬톤 TPG 라지 페이퍼 스와치 - 올해의 컬러 2022 /
+                  TPG-SHEETS [TPG Sheets]
+                </p></a
+              >
+            </div>
+            <div class="item new">
+              <a href="#"
+                ><img src="img/new2.jpg" alt="TSX 폴리에스터 스와치 카드" />
+                <p>
+                  ★ 팬톤 TSX 폴리에스터 스와치 카드 [PANTONE Polyester Standards
+                  Swatch Cards]
+                </p></a
+              >
+            </div>
+            <div class="item new">
+              <a href="#"
+                ><img src="img/new3.jpg" alt="TSX 폴리에스터 스와치 세트" />
+                <p>
+                  팬톤 TSX 폴리에스터 스와치 세트 / FFS100 [PANTONE Polyester
+                  Swatch Set]
+                </p></a
+              >
+            </div>
+            <div class="item best">
+              <a href="#"
+                ><img src="img/best2.jpg" alt="TPG 컬러 가이드" />
+                <p>
+                  팬톤 TPG 컬러 가이드 / FHIP110N PANTONE FASHION, HOME +
+                  INTERIORS Color Guide
+                </p></a
+              >
+            </div>
+            <div class="item best">
+              <a href="#"
+                ><img
+                  src="img/best3.jpg"
+                  alt="포뮬러 가이드 솔리드 코팅,비코팅"
+                />
+                <p>
+                  팬톤 포뮬러 가이드 솔리드 코팅,비코팅 / GP1601N PANTONE
+                  FORMULA GUIDE Solid Coated & Uncoated
+                </p></a
+              >
+            </div>
+            <div class="item new">
+              <a href="#"
+                ><img
+                  src="img/new4.jpg"
+                  alt="TPM 메탈릭 쉬머스 컬러 스페시피어"
+                />
+                <p>
+                  팬톤 TPM 메탈릭 쉬머스 컬러 스페시피어 / FHIP410N PANTONE
+                  Metallic Shimmers Color Specifier
+                </p></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="more">더보기 <i class="fas fa-angle-down"></i></a>
+      </section>
+      <!-- color of the year -->
+      <section class="color">
+        <h2>COLOR OF THE YEAR</h2>
+        <div class="color-wrap center clearfix">
+          <div class="color-big">
+            <img src="img/pe1.jpg" alt="color of the year" />
+          </div>
+          <div class="color-item">
+            <a href="#"><img src="img/pe2.jpg" alt="color of the year" /></a>
+          </div>
+          <div class="color-item">
+            <a href="#"><img src="img/pe3.jpg" alt="color of the year" /></a>
+          </div>
+          <div class="color-item">
+            <a href="#"><img src="img/pe4.jpg" alt="color of the year" /></a>
+          </div>
+          <div class="color-item">
+            <a href="#"><img src="img/pe5.jpg" alt="color of the year" /></a>
+          </div>
+        </div>
+        <ul>
+          <li class="active">
+            <a href="#" data-key="pe"><img src="img/pe.jpg" alt="2022" /></a>
+          </li>
+          <li>
+            <a href="#" data-key="il"><img src="img/il.jpg" alt="2021" /></a>
+          </li>
+          <li>
+            <a href="#" data-key="bl"><img src="img/bl.jpg" alt="2020" /></a>
+          </li>
+          <li>
+            <a href="#" data-key="co"><img src="img/co.jpg" alt="2019" /></a>
+          </li>
+        </ul>
+      </section>
+      <!-- intelligence -->
+      <section class="intelligence">
+        <h2>COLOR INTELLIGENCE</h2>
+        <div class="int-wrap center">
+          <div class="int-box1">
+            <a href="#">
+              <div>
+                <p class="int-title">
+                  <b>Fashion Color Trend Report:</b>
+                  London Fashion Week spring/summer 2019
+                </p>
+                <p class="int-content">
+                  A colour overview highlighting the top colours fashion
+                  designers showing at London Fashion Week will be featuring in
+                  their collections for the upcoming season.
+                </p>
+              </div></a
+            >
+          </div>
+          <div class="int-box2">
+            <a href="#">
+              <div>
+                <p class="int-title">
+                  <b>Fashion Color Trend Report:</b>
+                  NY Fashion Week spring/summer 2019
+                </p>
+                <p class="int-content">
+                  Lively hues supported by an array of reliable classics defines
+                  the spring/summer 2019 color story for men’s and women’s
+                  fashion.
+                </p>
+              </div></a
+            >
+          </div>
+          <div class="int-box3">
+            <a href="#">
+              <div>
+                <p class="int-title">
+                  <b>Pantone Color Institute</b>
+                  Color consulting services
+                </p>
+                <p class="int-content">
+                  When 80% of human experience is filtered through the eyes, we
+                  understand that the choice of color is critical.
+                </p>
+              </div></a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- side banner -->
+      <section class="side-banner">
+        <h2 class="blind">side banner</h2>
+        <div class="side-banner-wrap center">
+          <div>
+            <a href="#"
+              ><img
+                src="img/ban1.jpg"
+                alt="당신의 팬톤 컬러는 최신 버전인가요?"
+            /></a>
+          </div>
+          <div>
+            <a href="#"
+              ><img
+                src="img/ban2.jpg"
+                alt="팬톤 코리아 고객지원 센터에서 확인하세요"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- slide top button -->
+    <aside>
+      <a href="#">
+        <i class="fas fa-chevron-up"></i>
+        <span class="blind">Top</span>
+      </a>
+    </aside>
+    <!-- footer -->
+    <footer>
+      <div class="footer-top">
+        <ul class="center">
+          <li><a href="#">홈</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보취급방침</a></li>
+          <li><a href="#">이용안내</a></li>
+          <li><a href="#">사업자정보확인</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <div class="center clearfix">
+          <h2><img src="img/footer_logo.png" alt="x-rite" /></h2>
+          <div class="footer-text">
+            <p>
+              본 사이트는 아이엠디컴퍼니(유)가 운영 및 소유하며 PANTONE LLC가
+              아닌 아이엠디컴퍼니(유)에서<br />
+              모든 콘텐츠와 전자상거래 활동에 대한 책임 및 관리를 맡고 있습니다.
+            </p>
+            <small
+              >Copyrightⓒ 2013-2019 아이엠디컴퍼니(유) All rights
+              reserved.</small
+            >
+            <address>
+              아이엠디컴퍼니 유한회사 | 박건석 | 414-86-00014 | 서울 서초구
+              강남대로 381, 604호(서초동, 두산베어스텔) | 02.597.4577 |
+              pantone@pantone.kr
+            </address>
+          </div>
+          <div class="sns-icon">
+            <a href="#" title="twitter 바로가기" aria-label="트위터"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" title="facebook 바로가기" aria-label="페이스북"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" title="instagram 바로가기" aria-label="인스타그램"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
