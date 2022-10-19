@@ -52,14 +52,19 @@ $(function () {
   });
 
   //isotope
-  var prod = $(".prod-filter").isotope({
-    itemSelector: ".item",
+
+  var $prod = $(".prod-filter").imagesLoaded(function () {
+    $prod.isotope({
+      itemSelector: ".item",
+      layoutMode: "fitRows",
+    });
   });
+
   $(".filter-btn").on("click", function () {
     $(".filter-btn").removeClass("on");
     $(this).addClass("on");
     var selector = $(this).attr("data-filter");
-    prod.isotope({
+    $prod.isotope({
       filter: selector,
     });
   });
